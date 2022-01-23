@@ -1,7 +1,17 @@
+import Link from "next/link";
+
 function Header() {
-  return <header>
-      <h1>I am a header</h1>
-  </header>;
+  return (
+    <header>
+      <div>
+        <Link href="/">
+          <img src="/logo/header_logo.jpg" alt="" />
+        </Link>
+      </div>
+
+      <div></div>
+    </header>
+  );
 }
 
 export default Header;
