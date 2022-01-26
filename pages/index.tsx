@@ -29,6 +29,11 @@ export default function Home() {
           </h1>
         </div>
       </div>
+      {/* Posts */}
     </div>
   );
+}
+
+export const getServerSideProps = async () => {
+  const query =
 }
